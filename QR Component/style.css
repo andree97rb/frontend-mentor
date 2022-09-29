@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #D5E1EF;
+    display: grid;
+    place-content: center;
+}
+
+.card{
+    height: 30rem;
+    width: 19rem;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    padding: 15px;
+}
+
+.qr-container{
+    background-image: url(./qr.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+
+.description-container{
+    display: grid;
+    place-content: center;
+}
+
+.description-container >h3{
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p:not(h3 > p){
+    color:#A5A8AE;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+
+p{
+    display: grid;
+    place-content: center;
+}
